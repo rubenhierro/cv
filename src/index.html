@@ -1,22 +1,120 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="ca">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, user-scalable=no">
     <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss"><!-- do not remove this line! -->
-    <title>UOC Boilerplate</title>
+    <title>Rubèn Hierro - Curriculum Vitae</title>
+    <script async src="../node_modules/@fortawesome/fontawesome-free/js/all.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab&display=swap" rel="stylesheet" />
   </head>
-  <body>
-    <img src="assets/images/logo.png" alt="Universitat Oberta de Catalunya" class="uoc-logo">
-    <h1 class="uoc-title">Hello, UOC!</h1>
-    <p>
-      This is a starter template for the Advanced HTML and CSS Tools courses
-      from the Master's Program in Multimedia Applications and the Master's
-      Program in Web App and Website Development at the Universitat Oberta de
-      Catalunya.
-    </p>
 
-    <script src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
+  <body>
+    <header>
+      <div class="flex-color-box  flex-color-box--border-bottom">
+        <h2>Web Developer</h2>
+      </div>
+    </header>
+
+    <main>
+      <section class="presentation">
+        <img class="presentation__img" src="assets/images/perfil-round.png" alt="Fotografia Rubèn Hierro">
+        <h1>Rubèn Hierro</h1>
+        <q><em>El meu objectiu és treballar amb empreses y professionals vinculats en activitats orientades a la web.</em></q>
+      </section>
+
+      <section class="section">
+        <h3 class="section__title">Habilitats</h3>
+        <div class="skills">
+          <p class="skills__element  skills__element--primary">HTML</p>
+          <p class="skills__element  skills__element--primary">CSS</p>
+          <p class="skills__element  skills__element--primary">JS</p>
+          <p class="skills__element  skills__element--primary">Angular</p>
+          <p class="skills__element  skills__element--primary">React</p>
+          <p class="skills__element  skills__element--secondary">PHP</p>
+          <p class="skills__element  skills__element--secondary">Sympfony</p>
+          <p class="skills__element  skills__element--secondary">Laravel</p>
+        </div>
+      </section>
+      
+      <section class="section">
+        <h3 class="section__title">Formació</h3>
+        <div>
+          <ul class="section__list">
+            <li>
+              <strong>MÀSTER UNIVERSITARI.</strong> Màster en desenvolupament de llocs i aplicacions web. Universitat Oberta de Catalunya. 
+            </li>
+            <li>
+              <strong>GRAU UNIVERSITARI.</strong> Grau en Multimèdia. Universitat Oberta de Catalunya.  
+            </li>
+            <li>
+              <strong>GRAU SUPERIOR DE FORMACIÓ PROFESSIONAL.</strong> Tècnic Superior en desenvolupament d'Aplicacions Informàtiques. IES Montsià.
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section">
+        <h3 class="section__title">Experiència</h3>
+        <div>
+          <ul class="section__list">
+            <li>
+              FrontEnd Developer. ELECTRY CONSULTING
+            </li>
+            <li>
+              FrontEnd Developer / Angular. HIBERUS TECNOLOGIA
+            </li>
+            <li>
+              Desarrollador Web Full Stack. PRAT BRANDS
+            </li>
+            <li>
+              Full Stack PHP Developer. SPOTON CONNECTIONS
+            </li>
+          </ul>
+        </div>
+      </section>
+      
+      <section class="section">
+        <h3 class="section__title">Contacte</h3>
+        <div>
+          <ul class=" section__list">
+            <li>
+              <a href="#"><i class="fas fa-map-marker"></i> Av. Catalunya 1, 43870 - Amposta (Tarragona)</a>
+            </li>
+            <li>
+              <a href="#"><i class="fas fa-phone"></i> +34 651 60 30 60</a>
+            </li>
+            <li>
+              <a href="#"><i class="fas fa-envelope"></i> rubenhierro@correu.cat</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <button type="button" class="button"><i class="fas fa-user-check"></i> Contactar</button>
+      
+    </main>
+
+    <footer>
+      <div class="flex-color-box  flex-color-box--border-top">
+        <nav class="social-links">
+          <ul>
+            <li>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-github"></i></a>
+            </li>
+          </ul>
+        </nav>
+        <p>
+          © 2020 Rubèn Hierro.
+          Treball realitzat per a l'assignatura Eines HTML i CSS II
+        </p>
+      </div>
+    </footer>
   </body>
 </html>

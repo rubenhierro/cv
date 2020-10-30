@@ -4,7 +4,6 @@ module.exports = {
     "stylelint-scss"
   ],
   "rules": {
-    "selector-nested-pattern": "^&",
     "indentation": 2,
     "no-descending-specificity": null,
     "no-eol-whitespace": null,
